@@ -5,6 +5,7 @@
     border: 0;
     box-sizing: border-box;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow:inherit;
 }
 
 /* Body Section Styles*/
@@ -55,16 +56,83 @@ nav ul li a {
 
 /* Main Section Styles */
 
-
+/* main section {
+    padding:3vw;
+} */
 
 /* About Me Section Styles */
 
 .AboutMe {
     display:flex;
+    justify-content: space-around;
+    max-height:200px;
+    margin: 1vw;
+    box-sizing:border-box;
 }
+
+.AboutMeHeader {
+    display:inline-block;
+    align-self:center;
+    border-right:solid #BAD8FA;
+    padding-right:1vw;
+}
+
+.AboutMeHeader h2 {
+    font-size:2.2vw;
+    text-align:right;
+}
+
+.AboutMeContent {
+    display:inline-flex;
+    justify-content:space-between;
+    max-width: 60%;
+}
+
+.AboutMeBio {
+    max-Width:70%;
+    align-self:center;
+}
+
+.AboutMePic {
+    margin: 0 0 0 2vw;
+}
+
+
+.AboutMePic img {
+    object-fit:cover;
+    overflow:hidden;
+    border-radius:15px; 
+    max-width:100%;
+    max-height:100%;
+}
+
 
 /* Work Section Styles*/
 
+/* .Work {
+    display:flex;
+    justify-content: space-around;
+    max-height:200px;
+    padding:15px;
+    margin:15px;
+}
+
+.workHeader {
+    max-width:40%;
+}
+
+.WorkItems {
+    display:inline-flex;
+    justify-content:space-around;
+    max-width: 60%;
+}
+
+.workItems h3 {
+    flex-wrap:wrap;
+} */
 
 /* Footer Section Styles*/
 
+footer section {
+    padding:3vw;
+}

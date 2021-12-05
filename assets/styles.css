@@ -21,21 +21,25 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: #2B3642;
+    border-radius: 10px;
     align-items:center;
 }
 
 header h1 {
     color: #5C5F63;
     background-color:#95c5fc;
-    padding: 0 .5vw 0 0;
+    padding: 0 .5vw 0 .2vw;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top:5%;
+    margin-bottom:5%;
 }
 
 /* Navigation Section Styles */ 
 
 nav ul {
     list-style-type: none;
-    align-content:space-between;
-    
+    align-content:space-between; 
 }
 
 nav ul li {
@@ -47,14 +51,9 @@ nav ul li a {
     color:#BAD8FA
 }
 
-.navLinks {
-    align-content:space-between;
-    
-}
+/* Hero Section Styles */
 
-/* Hero Section Styles*/
-
-
+/* Main Section Styles */
 
 /* Footer Section Styles*/
 

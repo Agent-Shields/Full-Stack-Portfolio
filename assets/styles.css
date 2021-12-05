@@ -51,9 +51,20 @@ nav ul li a {
     color:#BAD8FA
 }
 
-/* Hero Section Styles */
+
 
 /* Main Section Styles */
+
+
+
+/* About Me Section Styles */
+
+.AboutMe {
+    display:flex;
+}
+
+/* Work Section Styles*/
+
 
 /* Footer Section Styles*/
 

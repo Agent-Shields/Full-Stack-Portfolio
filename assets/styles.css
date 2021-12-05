@@ -9,7 +9,7 @@
 
 /* Body Section Styles*/
 
-body{
+body {
     background-color: #DEEEFF ;
 }
 
@@ -21,18 +21,19 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: #2B3642;
+    align-items:center;
 }
 
 header h1 {
-    margin: .70vw 0;
     color: #5C5F63;
-    background-color:#BAD8FA;
+    background-color:#95c5fc;
+    padding: 0 .5vw 0 0;
 }
 
 /* Navigation Section Styles */ 
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
     align-content:space-between;
     
 }

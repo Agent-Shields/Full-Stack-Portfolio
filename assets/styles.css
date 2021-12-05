@@ -5,7 +5,6 @@
     border: 0;
     box-sizing: border-box;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    overflow:inherit;
 }
 
 /* Body Section Styles*/
@@ -73,18 +72,17 @@ nav ul li a {
 .AboutMeHeader {
     display:inline-block;
     align-self:center;
-    border-right:solid #BAD8FA;
+    border-right:solid #0e55a7;;
     padding-right:1vw;
 }
 
 .AboutMeHeader h2 {
     font-size:2.2vw;
-    text-align:right;
+    color:#0e55a7;
 }
 
 .AboutMeContent {
     display:inline-flex;
-    justify-content:space-between;
     max-width: 60%;
 }
 
@@ -102,26 +100,33 @@ nav ul li a {
     object-fit:cover;
     overflow:hidden;
     border-radius:15px; 
-    max-width:100%;
     max-height:100%;
 }
 
 
 /* Work Section Styles*/
 
-/* .Work {
+.Work {
     display:flex;
     justify-content: space-around;
     max-height:200px;
-    padding:15px;
-    margin:15px;
+    margin: 1vw;
+    box-sizing:border-box;
 }
 
 .workHeader {
-    max-width:40%;
+    display:inline-block;
+    align-self:center;
+    border-right:solid #0e55a7;;
+    padding-right:1vw;
 }
 
-.WorkItems {
+.workHeader h2{
+    font-size:2.2vw;
+    color:#0e55a7;
+}
+
+.WorkContent {
     display:inline-flex;
     justify-content:space-around;
     max-width: 60%;
@@ -129,7 +134,7 @@ nav ul li a {
 
 .workItems h3 {
     flex-wrap:wrap;
-} */
+}
 
 /* Footer Section Styles*/
 

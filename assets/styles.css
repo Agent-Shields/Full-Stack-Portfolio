@@ -48,16 +48,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color:#BAD8FA
+    color:#95c5fc;
 }
 
 
 
 /* Main Section Styles */
 
-/* main section {
-    padding:3vw;
-} */
 
 /* About Me Section Styles */
 
@@ -74,10 +71,11 @@ nav ul li a {
     align-self:center;
     border-right:solid #0e55a7;;
     padding-right:1vw;
+    text-align:right;
 }
 
 .AboutMeHeader h2 {
-    font-size:2.2vw;
+    font-size:1.5vw;
     color:#0e55a7;
 }
 
@@ -92,7 +90,7 @@ nav ul li a {
 }
 
 .AboutMePic {
-    margin: 0 0 0 2vw;
+    margin: 0 0 0 1vw;
 }
 
 
@@ -106,38 +104,55 @@ nav ul li a {
 
 /* Work Section Styles*/
 
-.Work {
-    display:flex;
-    justify-content: space-around;
-    max-height:200px;
+.work {
     margin: 1vw;
     box-sizing:border-box;
+    max-height:300px;
+}
+
+.workInfo {
+    display:flex;
+    justify-content:space-between;
 }
 
 .workHeader {
-    display:inline-block;
     align-self:center;
     border-right:solid #0e55a7;;
     padding-right:1vw;
+    width:16%;
+    text-align:right
 }
 
 .workHeader h2{
-    font-size:2.2vw;
+    font-size:1.5vw;
     color:#0e55a7;
 }
 
-.WorkContent {
-    display:inline-flex;
-    justify-content:space-around;
-    max-width: 60%;
+.workContent {
+    max-width:100%;
 }
 
-.workItems h3 {
-    flex-wrap:wrap;
+.workItem {
+  
+    max-height:100%;
 }
+
+.workItem1 img {
+    object-fit:cover;
+    overflow:hidden;
+    max-height:100%;
+    max-width: 100%;
+    border:solid #2fd8ca
+}
+
+.workTitleBox {
+    background-color: #2fd8ca;
+    width:15%;
+}
+
 
 /* Footer Section Styles*/
 
-footer section {
+/* footer section {
     padding:3vw;
-}
+} */

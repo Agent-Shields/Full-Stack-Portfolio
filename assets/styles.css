@@ -137,6 +137,7 @@ nav ul li a {
 
 .workItem1 {
     max-height:100%;
+    display:flex;
     flex-wrap:wrap;
 }
 
@@ -145,28 +146,31 @@ nav ul li a {
     overflow:hidden;
     border:solid #2fd8ca;
     max-height:30%;
-    max-width:50%;
+    max-width:30%;
  }
 
 .workTitleBox {
     background-color: #2fd8ca;
     width:15%;
+    color:#5C5F63;
+}
+
+.workItem2 {
+    max-height:100%;
+    display:flex;
+    flex-wrap:wrap;
 }
 
 .workItem2 img {
     object-fit:cover;
     overflow:hidden;
     border:solid #2fd8ca;
-    max-width:30%;
-    max-height:30%;
+    max-width:15%;
+    max-height:15%;
     
 }
 
 /* Footer Section Styles*/
-
-.footer{
-    flex-shrink:0;
-}
 
 footer section {
     display: flex;

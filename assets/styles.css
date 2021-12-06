@@ -142,7 +142,7 @@ nav ul li a {
     overflow:hidden;
     max-height:100%;
     max-width: 100%;
-    border:solid #2fd8ca
+    border:solid #2fd8ca;
 }
 
 .workTitleBox {
@@ -153,6 +153,35 @@ nav ul li a {
 
 /* Footer Section Styles*/
 
-/* footer section {
-    padding:3vw;
-} */
+footer section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #2B3642;
+    border-radius: 10px;
+    align-items:center;
+}
+
+footer h2 {
+    color: #5C5F63;
+    background-color:#95c5fc;
+    padding: 0 .5vw 0 .2vw;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+footer ul {
+    list-style-type: none;
+    align-content:space-between; 
+}
+
+footer ul li {
+    display:inline-block;
+    padding: 0 2vw;
+}
+
+footer ul li a {
+    color:#95c5fc;
+}

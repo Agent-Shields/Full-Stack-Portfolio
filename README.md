@@ -13,7 +13,7 @@ https://agent-shields.github.io/Full-Stack-Portfolio/
 
 ## Screenshot
 These images outline what you should see when you open the website link above after you've cloned this repo: 
-![image](assets/images/WebsiteScreenshot)
+![image](assets/images/WebsiteScreenshot.png)
 
 ## Contribution
 Made with ❤️ by Johnathan Shields 

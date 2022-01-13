@@ -128,7 +128,8 @@ nav ul li a {
 }
 
 #workTrophy {
-    flex: content;
+    flex:content;
+    max-height: 50%;
 }
 
 #workItemContainer {

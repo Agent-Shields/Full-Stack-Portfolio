@@ -59,124 +59,71 @@ nav ul li a {
     color:#95c5fc;
 }
 
-
-
 /* Main Section Styles */
 
-/* .main {
-    display:flex;
-} */
-
-/* About Me Section Styles */
-
-/* .AboutMe {
-    display:flex;
-    justify-content: space-around;
-    max-height:200px;
-    margin: 1vw;
-    box-sizing:border-box;
+#container {
+    display: flex;
+    flex-direction: column;
 }
 
-.AboutMeHeader {
-    display:inline-block;
+#aboutMeRow {
+    flex: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+#workRow {
+    flex: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.asideHeader {
     align-self:center;
     border-right:solid #0e55a7;;
     padding-right:1vw;
     text-align:right;
-}
-
-.AboutMeHeader h2 {
-    font-size:1.5vw;
+    font-size:3vw;
     color:#0e55a7;
 }
 
-.AboutMeContent {
-    display:inline-flex;
-    max-width: 60%;
+/* About Me Section Styles */
+
+#aboutMeAside {
+    flex: 1;
 }
 
-.AboutMeBio {
+#aboutMeBio {
     max-Width:70%;
     align-self:center;
+    padding-left: 1vw;
 }
 
-.AboutMePic {
-    margin: 0 0 0 1vw;
+#aboutMeContent {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
 }
 
-
-.AboutMePic img {
-    object-fit:cover;
+#aboutMePic img {
+    object-fit:contain;
     overflow:hidden;
     border-radius:15px; 
-    max-height:100%;
-} */
-
+    max-width: 200px;
+    max-height:200px;
+}
 
 /* Work Section Styles*/
 
-/* .work {
-    margin: 1vw;
-    box-sizing:border-box;
-    max-height:300px;
+#workAside {
+    flex: 1;
 }
 
-.workInfo {
-    display:flex;
-    justify-content:space-between;
+#workContent {
+    flex:3;
 }
-
-.workHeader {
-    align-self:center;
-    border-right:solid #0e55a7;;
-    padding-right:1vw;
-    width:16%;
-    text-align:right
-}
-
-.workHeader h2{
-    font-size:1.5vw;
-    color:#0e55a7;
-}
-
-.workContent {
-    max-width:100%;
-}
-
-.workItem1 {
-    max-height:100%;
-    display:flex;
-    flex-wrap:wrap;
-}
-
-.workItem1 img {
-    object-fit:cover;
-    overflow:hidden;
-    border:solid #2fd8ca;
-    max-height:30%;
-    max-width:30%;
- }
-
-.workTitleBox {
-    background-color: #2fd8ca;
-    width:15%;
-    color:#5C5F63;
-}
-
-.workItem2 {
-    max-height:100%;
-    display:flex;
-    flex-wrap:wrap;
-}
-
-.workItem2 img {
-    object-fit:cover;
-    overflow:hidden;
-    border:solid #2fd8ca;
-    max-width:15%;
-    max-height:15%;
-    
-} */
 
 /* Footer Section Styles*/
 

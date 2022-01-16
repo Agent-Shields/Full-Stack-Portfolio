@@ -40,7 +40,7 @@
 
                     <li>
                         <!-- Anchor Element -->
-                        <a href="#Resume">Resume</a>
+                        <a href="https://docs.google.com/document/d/15deBWK6Z7RieozVFLSlR7_ih0FeIyxhA/edit?usp=sharing&ouid=105200339858078149531&rtpof=true&sd=true">Resume</a>
                     </li>
                 </ul>
             </section>
@@ -50,19 +50,18 @@
    
 
     <!-- Main Section -->
-    <main>
+    <main id="container">
 
-        <!--About Me Section -->
-        <section class="AboutMe">
-            <!-- About Me Header div -->
-            <div class="AboutMeHeader">
-                <h2>About Me</h2>
+        <section id="aboutMeRow">
+
+            <div id="aboutMeAside" class="asideHeader">
+                About Me
             </div>
 
-            <!-- About Me information div -->
-            <div class="AboutMeContent">
+            <div id="aboutMeContent">
 
-                <div class="AboutMeBio">
+                <div id="aboutMeBio">
+                    
                     <p>
                         Hello, I am Johnathan Shields and I'm currently employed as an automation software engineer for Buhler.  
                     </p>
@@ -74,55 +73,54 @@
                     <p>
                         Technologies I use in my current role are C#, SQL, KQL, Git, Agile methodology, Azure DevOps, and Visual Studio. 
                     </p>
+
                 </div>
 
-                <div class="AboutMePic">
+                <div id="aboutMePic">
                     <img src="assets/images/Portfolio-Picture.jpg" alt=""/>
                 </div>
             </div>
 
         </section>
 
-        <!-- Work Section -->
-        <section class="work">
-            <div class="workInfo">
-                <!--Work aside division -->
-                <div class="workHeader">
-                    <h2>Work</h2>
+        <section id="workRow">
+
+            <div id="workAside" class="asideHeader">
+                Work
+            </div>
+
+            <div id="workContent">
+
+                <div class="workDescriptionBox noClick">
+                    <h2> Concert Scout 
+                        <p> HTML, CSS, JAVASCRIPT & API </p>    
+                    </h2>
                 </div>
-            
-                <!-- Work descriptions -->
-                <div class="workContent">
-                    
-                    <div class="workItem1">
-                        <img src="assets/images/Horiseon-webpage-upper-half.PNG" alt="Horiseon Rafactoring project clickable link">
-                        <a href="https://agent-shields.github.io/Urban-Octo-Telegram-Website/"></a>
-                        <div class="workTitleBox">
-                        <h2>Accessibility refactoring project</h2>
-                            <p>
-                                HTML, CSS, GitHub, Refactoring
-                            </p>
-                        </div>
+
+                <div id="workTrophy">
+
+                    <a href="https://austinslatey.github.io/concert-scout/" class="workLink"></a>
+
+                </div>
+
+                <div id="workItemContainer">
+
+                    <div id="workItem1">
+                        <a href="https://agent-shields.github.io/Weather-Tracker/" class="workItemLink"></a>
                     </div>
 
-                    <!-- <div class="workItem2">
-                        <img src="assets/images/Run-Buddy.PNG" alt="Run-Buddy website link">
-                        <a href="https://agent-shields.github.io/Urban-Octo-Telegram-Website/"></a>
-                        <div class="workTitleBox">
-                            Intro to web development
-                            <p>
-                                HTML, CSS
-                            </p>
-                        </div>
-                    </div> -->
+                    <div id="workItem2">
+                        <a href="https://agent-shields.github.io/Random-Pass/" class="workItemLink"></a>
+                    </div>
 
                 </div>
 
             </div>
 
-       </section>
+        </section>
 
-    </main>
+    </main> 
+
 
     <!-- Footer Section -->
     <footer>

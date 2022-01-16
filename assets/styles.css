@@ -152,7 +152,7 @@ nav ul li a {
 #workItem1 {
     flex:content;
     margin-left:10px;
-    background-image: url("/assets/images/RandomPassProof.jpg");
+    background-image: url("/assets/images/WeatherTrackerProof.PNG");
     background-size:cover;
 
 }
@@ -160,7 +160,7 @@ nav ul li a {
 #workItem2 {
     flex:content;
     margin-left:10px;
-    background-image: url("/assets/images/WeatherTrackerProof.PNG");
+    background-image: url("/assets/images/RandomPassProof.jpg");
     background-size:cover;
 }
 
